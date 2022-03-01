@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: chubby-plan
+  profiles:
+    active: local
+

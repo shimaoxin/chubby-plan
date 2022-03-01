@@ -1,0 +1,12 @@
+server:
+  port: 8080
+#spring:
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://mysql.fat.360yunxi.com:3306/platform_middleware?useSSL=false&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
+#    username: root
+#    password: Aa123456?
+#    initialSize: 20
+#    minIdle: 20
+#    maxActive: 200
+#    minEvictableIdleTimeMillis: 300000
