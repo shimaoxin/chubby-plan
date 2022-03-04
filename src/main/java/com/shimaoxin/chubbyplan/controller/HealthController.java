@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.RestController;
  * @description：
  */
 @RestController
-public class TestController {
+public class HealthController {
 
-    @GetMapping("/test")
-    public Object index(String request) {
-        return "Hello Word";
+    @GetMapping("/health")
+    public Object health(String request) {
+        return "health";
     }
 }
