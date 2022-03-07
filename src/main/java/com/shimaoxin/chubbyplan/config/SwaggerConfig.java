@@ -29,18 +29,18 @@ public class SwaggerConfig {
     @Bean
     public Docket createRestApi() {
         List<Parameter> pars = new ArrayList<Parameter>();
-        ParameterBuilder apiPar = new ParameterBuilder();
-        apiPar.name("appToken").description("APP端接口请求头token")
-                .modelRef(new ModelRef("string")).parameterType("header")
-                .required(false).build();
+//        ParameterBuilder apiPar = new ParameterBuilder();
+//        apiPar.name("appToken").description("APP端接口请求头token")
+//                .modelRef(new ModelRef("string")).parameterType("header")
+//                .required(false).build();
+//
+//        ParameterBuilder ticketPar = new ParameterBuilder();
+//        ticketPar.name("webToken").description("管理后台登录请求头token")
+//                .modelRef(new ModelRef("string")).parameterType("header")
+//                .required(false).build();
 
-        ParameterBuilder ticketPar = new ParameterBuilder();
-        ticketPar.name("webToken").description("管理后台登录请求头token")
-                .modelRef(new ModelRef("string")).parameterType("header")
-                .required(false).build();
-
-        pars.add(apiPar.build());
-        pars.add(ticketPar.build());
+//        pars.add(apiPar.build());
+//        pars.add(ticketPar.build());
 
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())

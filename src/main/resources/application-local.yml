@@ -10,3 +10,9 @@ spring:
     minIdle: 20
     maxActive: 200
     minEvictableIdleTimeMillis: 300000
+
+
+file:
+  resource:
+    innerPath: D://resource
+    outerPath: D://resource
